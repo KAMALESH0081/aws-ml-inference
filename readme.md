@@ -10,6 +10,17 @@ The system is orchestrated using Docker Compose and deployed on an Amazon EC2 in
 
 ---
 
+## Related Project
+
+This inference system uses model artifacts generated from the training pipeline below:
+
+➡️ AWS ML Training Pipeline
+https://github.com/KAMALESH0081/aws-ml-training-pipeline
+
+The training project handles dataset ingestion, model training, and uploading serialized model artifacts to Amazon S3.
+
+---
+
 ## Architecture
 
 ```text
